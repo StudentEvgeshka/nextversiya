@@ -10,11 +10,25 @@ body{
 .container
 {
 	max-width: 1200px;
+
+}
+.fon{
+	background:url(../img/f2.png);
+	padding: 1em;
+	border-left: 3px #ac7439 solid;
+	border-right: 3px #ac7439 solid;
 }
 /* главное меню */
 .nav-link
 {
 	font-weight: bold
+}
+.img-fluid{
+	margin: 1em 0em;
+}
+
+.navbar{
+	padding: 0em;
 }
 .navbar-brand a{
 	text-decoration: none;
@@ -24,22 +38,30 @@ body{
 	border-top: 3px #3d3de2 solid;
 	border-bottom: 3px #e89e00 solid;	
 }
-li.dropdown.show > .dropdown-menu { 
-  width: 90vw;
-  left: 0;
-  right: 0;
-  top: auto ;
-  position: fixed !important;
-  background-color: #FFFFFF;
-  border-radius: 0;
-  border: none;
-  margin: 2em auto;
-  background: rgba(255,255,255,0.95);
+.mega-dropdown {
+ position: static !important;
+
+ }
+.mega-dropdown-menu {
+ padding: 20px 15px 15px;
+ text-align: center;
+ width: 98%;
+ margin: 0em 1% 0 1%;
+ box-shadow: none;
+ border-radius: 0em;
+ border: none; 
 }
-.dropdown-menu h5{
-	text-align: center;
-	padding-top:1em;
+.uvelich ul li a{
+-moz-transition: all 0.3s ease-out;
+ -o-transition: all 0.3s ease-out;
+ -webkit-transition: all 0.3s ease-out;
 }
+.uvelich ul li a:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+
 /* end  */
 /* основное содержание */
 .row{
@@ -49,7 +71,9 @@ li.dropdown.show > .dropdown-menu {
 	background: url(../img/top2.png) repeat-x;
 	background-color:#fff ;
 	margin: 0 auto;
+
 }
+
 .video, .news, .zagolovok{
 	-webkit-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
 	-moz-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
@@ -74,7 +98,7 @@ li.dropdown.show > .dropdown-menu {
 	float:left;
 }
 .news h5{	
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: bold;
 	margin-bottom: 0.1em;
 	text-align: center;
@@ -82,9 +106,9 @@ li.dropdown.show > .dropdown-menu {
 .news p{
 	font-size: 1em;
 	text-align:justify;
-	text-indent: 0.5em;
 	margin: 0;
 }
+
 .list-group-item:hover{
 	background-color:#e2e2e2;
 }
