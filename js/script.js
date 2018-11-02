@@ -1,64 +1,27 @@
-/*
-$(document).ready(function(){
-	// Находим блок карусели
-	var carousel = $("#carousel");
-
-	// Запускаем плагин карусели
-	carousel.owlCarousel({
-		// Количество блоков на больших экранах
-	items:             4,
+/*первая каруселька*/
+$(document).ready(function() {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    	loop: true,
+    	nav: true,
+    	items:             4,
 		// 4 блоков на компьютерах (экран от 1200px до 901px)
-	itemsDesktop:      [900, 3],
+		itemsDesktop:      [900, 3],
 		// 2 блоков на компьютерах (экран от 1400px до 901px)
-	itemsDesktopSmall: [700, 2],
+		itemsDesktopSmall: [700, 2],
 		// 1 элемента на планшетах (экран от 700 до 480 пикселей)
-	itemsTablet:       [500, 1],
+		itemsTablet:       [500, 1],
 		// Настройки для телефона отключены, в этом случае будут
 	// использованы настройки планшета
-	itemsMobile:       false
-	});
-// Назад
-// При клике на "Назад"
-$('#js-prev').click(function () {
-
-	// Запускаем перемотку влево
-	carousel.trigger('owl.prev');
-
-	return false;
-});
-
-// Вперед
-// При клике на "Вперед"
-$('#js-next').click(function () {
-
-	// Запускаем перемотку вправо
-	carousel.trigger('owl.next');
-
-	return false;
-});
-});*/
-/*$(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-  	margin: 10
-	items:             4,
-		// 4 блоков на компьютерах (экран от 1200px до 901px)
-	itemsDesktop:      [900, 3],
-		// 2 блоков на компьютерах (экран от 1400px до 901px)
-	itemsDesktopSmall: [700, 2],
-		// 1 элемента на планшетах (экран от 700 до 480 пикселей)
-	itemsTablet:       [500, 1],
-		// Настройки для телефона отключены, в этом случае будут
-	// использованы настройки планшета
-	itemsMobile:       false
-  });
-
-
-// Назад
+		itemsMobile:       false
+  					});
+ // Назад
 // При клике на "Назад"
 $("#js-prev").click(function () {
 
 	// Запускаем перемотку влево
-	carousel.trigger('owl.prev');
+	owl.trigger('owl.prev');
 
 	return false;
 });
@@ -68,13 +31,12 @@ $("#js-prev").click(function () {
 $('#js-next').click(function () {
 
 	// Запускаем перемотку вправо
-	carousel.trigger('owl.next');
+	owl.trigger('owl.next');
 
 	return false;
 });
-	
 });
-*/
+/*вторая*/
 $(document).ready(function() {
   // Owl Carousel
   var owl = $(".owl-carousel");
