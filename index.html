@@ -11,10 +11,71 @@
     <!-- мій файл стилю  -->
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
     <title>МЗШ№6</title>
+
   </head>
   <body>
 <div class="container fon">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light small_menu">
+        <div class="logotip col-12"> 
+            <img class="img-fluid sim" src="img/logo_sm.png" width="150"  alt="Logo">
+        </div>
+        <div class="container bg-white rounded">
+            <a class="navbar-brand mx-2" href="#">
+               <h3><span class="SH">Ш</span>кільний <span class="V">В</span>існик</h3>
+            </a>
+            <button class="navbar-toggler block" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse  pl-4 ml-2 uvelich" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mr-auto nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Про школу</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Управління</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Новини</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакти</a>
+                    </li>
+
+                    <!-- соц. кнопки -->
+                    <li class="nav-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="s1  px-2">
+                            <a class="nav-link" href="#">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-success"></i>
+                                    <i class="fab fa-google fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            </div>
+                            <div class="s2">
+                            <a class="nav-link" href="#">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            </div>
+                            <div class="s3 px-2">
+                            <a class="nav-link" href="#">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-danger"></i>
+                                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+    <nav class="navbar navbar-expand-lg navbar-light big_menu">
         <div class="container bg-white rounded">
             <a class="navbar-brand mx-0" href="#">
                 <img class="img-fluid" src="img/logo.png" width="314" height="110" alt="Logo">
@@ -46,9 +107,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Новини</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Конкурси</a>
-                    </li>
                     <!-- выпадающие меню -->
                     <li class="dropdown mega-dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link " data-toggle="dropdown">Контакти</a> <div class="dropdown-menu mega-dropdown-menu">
@@ -63,28 +121,32 @@
                 <div >
                 <ul class="navbar-nav my-2 my-lg-0 social nav-fill">
                     <li class="nav-item">
-                    <a class="nav-link" href="#">
-                          <span class="fa-stack fa-1x">
-                            <i class="fas fa-circle fa-stack-2x text-success"></i>
-                            <i class="fab fa-google fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                          <span class="fa-stack fa-1x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                          <span class="fa-stack fa-1x">
-                            <i class="fas fa-circle fa-stack-2x text-danger"></i>
-                            <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
+                         <div class="d-flex justify-content-center">
+                            <div class="s1  px-1">
+                            <a class="nav-link" href="#">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-success"></i>
+                                    <i class="fab fa-google fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            </div>
+                            <div class="s2">
+                            <a class="nav-link" href="#">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            </div>
+                            <div class="s3 px-1">
+                            <a class="nav-link" href="#">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-danger"></i>
+                                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
                 </div>
@@ -139,5 +201,7 @@
      <script type="text/javascript" src="js/script.js"></script>
     <!-- Include js plugin -->
     <script src="owl-carousel/owl.carousel.min.js"></script>
+
+
   </body>
 </html>
