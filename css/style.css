@@ -165,14 +165,14 @@ color:#e89e00;
 .row{
 	margin-top: 0.5em;
 }
-.video, .news{
+.video, .news, .blok{
 	background: url(../img/top2.png) repeat-x;
 	background-color:#fff ;
 	margin: 0 auto;
 
 }
 
-.video, .news, .zagolovok{
+.video, .news, .zagolovok, .blok{
 	-webkit-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
 	-moz-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
 	box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
@@ -233,6 +233,8 @@ color:#e89e00;
 .element a{
 	text-decoration: none;
 	color:#000;
-
+}
+.element a:hover{
+	color:#ccc;
 }
 /*karucel end*/
