@@ -168,7 +168,7 @@ color:#e89e00;
 .video, .news, .blok,.karta{
 	background: url(../img/top2.png) repeat-x;
 	background-color:#fff ;
-	margin: 0 auto;
+	margin: 1em auto;
 
 }
 .karta{
