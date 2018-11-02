@@ -230,11 +230,22 @@ color:#e89e00;
 .element p{
 	font-size: 1em;
 }
+.big_news a{
+	text-decoration: none;
+}
+.big_news a:hover{
+	
+}
+
 .element a{
 	text-decoration: none;
 	color:#000;
 }
 .element a:hover{
 	color:#ccc;
+	
+}
+#js-prev img, #js-next img{
+	width:80px;
 }
 /*karucel end*/
