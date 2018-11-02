@@ -5,7 +5,7 @@
   
 }
 body{
-	background: url(../img/bg3.png);
+	background: url(../img/f1.jpg);
 }
 .container
 {
@@ -15,8 +15,8 @@ body{
 .fon{
 	background:url(../img/f2.png);
 	padding: 1em;
-	border-left: 3px #ac7439 solid;
-	border-right: 3px #ac7439 solid;
+	border-left: 3px #292c3c solid;
+	border-right: 3px #292c3c solid;
 }
 /* главное меню */
 
@@ -165,14 +165,18 @@ color:#e89e00;
 .row{
 	margin-top: 0.5em;
 }
-.video, .news, .blok{
+.video, .news, .blok,.karta{
 	background: url(../img/top2.png) repeat-x;
 	background-color:#fff ;
 	margin: 0 auto;
 
 }
+.karta{
+	padding: 2em 0 0 0;
+	background-color: #ccc;
+}
 
-.video, .news, .zagolovok, .blok{
+.video, .news, .zagolovok, .blok, .karta{
 	-webkit-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
 	-moz-box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
 	box-shadow: 0px 3px 10px -3px rgba(74,74,74,1);
@@ -234,7 +238,7 @@ color:#e89e00;
 	text-decoration: none;
 }
 .big_news a:hover{
-	
+
 }
 
 .element a{
@@ -245,7 +249,38 @@ color:#e89e00;
 	color:#ccc;
 	
 }
-#js-prev img, #js-next img{
+#js-prev img, #js-next img, #k-prev img, #k-next img{
 	width:80px;
 }
 /*karucel end*/
+
+/* каруселька конкурсы */
+.element2 img{
+	height:10em;
+
+}
+/* финиш конкурсам */
+
+/* карта в подвале */
+.grafik-bg{
+	background-color: #1E2C3B;
+	opacity: 0.90;
+	left: 0;
+	height: 350px;
+	position: absolute;
+}
+.map{
+	margin-bottom: -8px;
+	margin-top:2em;
+	
+}
+.navigate-link{
+	display: none;
+}
+.text-map{
+	margin-bottom: 3px;
+	color: #C7C7C7;
+}
+.copi-r{
+	background-color:#000;
+}

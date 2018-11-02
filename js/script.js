@@ -39,24 +39,24 @@ $('#js-next').click(function () {
 /*вторая*/
 $(document).ready(function() {
   // Owl Carousel
-  var owl = $(".owl-carousel");
+  var owl = $(".owl-carousel2");
   owl.owlCarousel({
     	loop: true,
     	nav: true,
-    	items:             4,
+    	items:             5,
 		// 4 блоков на компьютерах (экран от 1200px до 901px)
-		itemsDesktop:      [900, 3],
+		itemsDesktop:      [900, 4],
 		// 2 блоков на компьютерах (экран от 1400px до 901px)
-		itemsDesktopSmall: [700, 2],
+		itemsDesktopSmall: [700, 3],
 		// 1 элемента на планшетах (экран от 700 до 480 пикселей)
-		itemsTablet:       [500, 1],
+		itemsTablet:       [500, 2],
 		// Настройки для телефона отключены, в этом случае будут
 	// использованы настройки планшета
 		itemsMobile:       false
   					});
  // Назад
 // При клике на "Назад"
-$("#js-prev").click(function () {
+$("#k-prev").click(function () {
 
 	// Запускаем перемотку влево
 	owl.trigger('owl.prev');
@@ -66,7 +66,7 @@ $("#js-prev").click(function () {
 
 // Вперед
 // При клике на "Вперед"
-$('#js-next').click(function () {
+$('#k-next').click(function () {
 
 	// Запускаем перемотку вправо
 	owl.trigger('owl.next');
