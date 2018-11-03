@@ -364,8 +364,8 @@ body {
 
 /* карта в подвале */
 .grafik-bg {
-    background-color: #1E2C3B;
-    opacity: 0.90;
+    background-color: #ccc;
+    opacity: 0.92;
     left: 0;
     height: 350px;
     position: absolute;
@@ -383,11 +383,12 @@ body {
 
 .text-map {
     margin-bottom: 3px;
-    color: #C7C7C7;
+    color: #000;
+    font-weight: bold;
 }
 
 .copi-r {
-    background-color: #000;
+    background-color: #292c3c;
 }
 
 /* =================== */
